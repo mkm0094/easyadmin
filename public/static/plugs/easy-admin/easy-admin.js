@@ -849,6 +849,7 @@ define(["jquery", "tableSelect", "ckeditor"], function ($, tableSelect, undefine
                 content: url,
                 maxmin: true,
                 moveOut: true,
+                shadeClose:true,
                 success: function (layero, index) {
                     var body = layer.getChildFrame('body', index);
                     if (body.length > 0) {
